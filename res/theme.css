@@ -35,7 +35,7 @@ main {
 .main-section {
     height: 70vh;
     background-color: var(--accent);
-    background: url("/res/img/main-section.svg");
+    background: url("/res/img/bg.svg");
     background-size: cover;
     position: relative;
     display: flex;
@@ -82,7 +82,7 @@ footer {
     top: 1px;
     width: 100vw;
     height: 70vh;
-    background: url("/res/img/main-slope.svg");
+    background: url("/res/img/bg-slope.svg");
     background-size: cover;
 }
 
