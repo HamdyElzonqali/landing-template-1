@@ -35,7 +35,7 @@ main {
 .main-section {
     height: 70vh;
     background-color: var(--accent);
-    background: url("/res/img/bg.svg");
+    background: url("https://hamdyelzonqali.github.io/landing-template-1/res/img/bg.svg?sanitize=true");
     background-size: cover;
     position: relative;
     display: flex;
@@ -44,6 +44,17 @@ main {
     color: var(--background);
     line-height: 1.5;
 }
+.main-section::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    width: 100vw;
+    height: 70vh;
+    background: url("https://hamdyelzonqali.github.io/landing-template-1/res/img/bg-slope.svg?sanitize=true");
+    background-size: cover;
+}
+
 
 footer {
     display: flex;
@@ -73,17 +84,6 @@ footer {
     footer {
         padding: 30px;
     }
-}
-
-.main-section::after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 1px;
-    width: 100vw;
-    height: 70vh;
-    background: url("/res/img/bg-slope.svg");
-    background-size: cover;
 }
 
 
